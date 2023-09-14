@@ -16,7 +16,24 @@ Angular is a combination of TypeScript, ES6(Advanced Java Script) and ES5(Java S
 2. it's a Development tools set like build, Local server, auto-refresh
 3. It's Set of build tools like complier, lint, minfy etc for compiling and deployments
 4.  As this very helpful for testing Angular code
-## Angular Command
-ng serve :  Ss a basic command in Angular and identifies TypeScript, compile and then start webserver. Webserver automatically compiles and made available new changes without redeploying an application.
+## Angular Commands
+ng serve :  Is a basic command in Angular and identifies TypeScript, compile and then start webserver. Webserver automatically compiles and made available new changes without redeploying an application.
+ng generate component <compoenent-name>: Is to generate a compoenent in current project
+ng new <project-name> : To create a new project
+ng build: To build a project
+Follow below url for more cli commands
+https://angular.io/cli
 
+## Angular Topics are like
+1. Component(@Component)
+2. Model(ngModel) : used for two way data binding
+3. Directives(@Directive)
+4. Switch(ngSwitch)
+5. list(ngFor)
+6. if(ngIf)
+7. Routers
+8. bindings
+9. Module(@ngModule)
+10. Service (@Injectable())
+11. Pipes(@Pipes)
 
