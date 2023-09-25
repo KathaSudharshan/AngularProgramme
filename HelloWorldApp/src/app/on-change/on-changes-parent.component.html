@@ -1,0 +1,12 @@
+<h2>{{ title }}</h2>
+<label for="power-input">Power: </label>
+<input type="text" id="power-input" [(ngModel)]="power" />
+<label for="hero-name"> Hero.name: </label>
+<input type="text" id="hero-name" [(ngModel)]="hero.name" />
+
+<button type="button" (click)="reset()">Reset Log</button>
+
+<on-changes [hero]="hero" [power]="power"></on-changes>
+
+<h3>Change Log Parent</h3>
+  <div *ngFor="let chg of changesLog" class="log">{{chg}}</div>
